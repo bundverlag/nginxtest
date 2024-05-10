@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginxtest
-        image: nginx:1.14.2
+        image: bvg-test/nginxhallowelt
         ports:
         - containerPort: 80
 ---
