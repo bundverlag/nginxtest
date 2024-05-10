@@ -14,15 +14,9 @@ spec:
     spec:
       containers:
       - name: nginxtest
-        image: image: $(acrName)/nginxhallowelt
+        image: acrbvgtestnortheu01.azurecr.io/bvg-test/nginxhallowelt:latest
         ports:
         - containerPort: 80
-        env:
-        - name: acrName
-          valueFrom:
-            configMapKeyRef:
-              name: acr-config
-              key: acrName
 ---
 apiVersion: v1
 kind: Service
