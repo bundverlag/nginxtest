@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: nginxtest
-        #image: acrbvgtestnortheu01.azurecr.io/bvg-test/nginxhallowelt:latest
-        image: bvg-test/nginxhallowelt:latest
+        image: acrbvgtestnortheu01.azurecr.io/bvg-test/nginxhallowelt:latest
+        #image: bvg-test/nginxhallowelt:latest
         ports:
         - containerPort: 80
 ---
