@@ -10,3 +10,6 @@ RUN apt-get install -y \
     wget \
     git \
     nano
+
+# Kopieren der index.html Datei in das Nginx-Webroot-Verzeichnis
+COPY ./index.html /usr/share/nginx/html/index.html
